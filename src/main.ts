@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-import App from './App.vue'
+import App from '@/App.vue'
 
 // 配置element-plus国际化
 // 解决打包element-plus的ts检测失败的方法：canvas-sign.d.ts或者在此添加后面的代码（包括//） // @ts-ignore
