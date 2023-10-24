@@ -1,13 +1,11 @@
 <template>
   <div>
-    <h1>ffffffffffffffffff</h1>
+    <el-button type="primary" :icon="Edit">主要按钮</el-button>
   </div>
 </template>
 
 <script setup lang="ts">
-for (let index = 0; index < 100; index++) {
-  console.log(index)
-}
+import { Edit } from '@element-plus/icons-vue'
 </script>
 
 <style lang="scss" scoped></style>
