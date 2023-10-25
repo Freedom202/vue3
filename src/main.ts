@@ -12,4 +12,10 @@ const app = createApp(App)
 app.use(ElementPlus, {
   locale: zhCn, // element-plus国际化配置
 })
+// svg插件需要的配置
+import 'virtual:svg-icons-register'
+
+import SvgIcon from '@/components/SvgIcon/index.vue'
+app.component('SvgIcon', SvgIcon)
+// 将应用挂载到挂载点上
 app.mount('#app')
