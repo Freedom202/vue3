@@ -20,4 +20,13 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // ← 新增内容 ←
   },
+  // scss全局变量配置
+  css: {
+    preprocessorOptions: {
+      scss: {
+        javascriptEnabled: true,
+        additionalData: '@import "./src/styles/variable.scss";',
+      },
+    },
+  },
 })

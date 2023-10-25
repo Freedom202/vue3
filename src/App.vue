@@ -15,4 +15,10 @@
 // import { Edit } from '@element-plus/icons-vue'
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+div {
+  h1 {
+    color: $color;
+  }
+}
+</style>
